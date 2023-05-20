@@ -1,11 +1,8 @@
 # Custom TabBar with SwiftUI 4.0
 
 ## Description
-[![Swift Version][swift-image]][swift-url]
-[![Build Status][travis-image]][travis-url]
-
 <p align="center">
-<img src= "https://github.com/skaunited/CustomTabBar/blob/main/Curved%20Custom%20TabBar/demo/demo_CustomTabBAR.gif" width="400" >
+<img src= "https://github.com/skaunited/CustomTabBar/blob/main/Curved%20Custom%20TabBar/demo/demo_CustomTabBAR.gif" width="250" >
 </p>
 
 <p align="center">
