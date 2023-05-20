@@ -1,4 +1,4 @@
-# Custom TabBar with SwiftUI 4.0
+# Custom TabBar (SwiftUI)
 
 ## Description
 <p align="center">
