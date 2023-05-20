@@ -14,6 +14,10 @@
 		480512B12A18A85000279F57 /* Curved_Custom_TabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480512B02A18A85000279F57 /* Curved_Custom_TabBarTests.swift */; };
 		480512BB2A18A85000279F57 /* Curved_Custom_TabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480512BA2A18A85000279F57 /* Curved_Custom_TabBarUITests.swift */; };
 		480512BD2A18A85000279F57 /* Curved_Custom_TabBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480512BC2A18A85000279F57 /* Curved_Custom_TabBarUITestsLaunchTests.swift */; };
+		480512CC2A18A8D900279F57 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480512CB2A18A8D900279F57 /* Tab.swift */; };
+		480512CE2A18AA2F00279F57 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480512CD2A18AA2F00279F57 /* Home.swift */; };
+		480512D02A18DA3200279F57 /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480512CF2A18DA3200279F57 /* TabShape.swift */; };
+		480512D22A18DD3300279F57 /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480512D12A18DD3300279F57 /* TabPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		480512B62A18A85000279F57 /* Curved Custom TabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Curved Custom TabBarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		480512BA2A18A85000279F57 /* Curved_Custom_TabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curved_Custom_TabBarUITests.swift; sourceTree = "<group>"; };
 		480512BC2A18A85000279F57 /* Curved_Custom_TabBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curved_Custom_TabBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		480512CB2A18A8D900279F57 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		480512CD2A18AA2F00279F57 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		480512CF2A18DA3200279F57 /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
+		480512D12A18DD3300279F57 /* TabPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPosition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,8 @@
 		4805129E2A18A84F00279F57 /* Curved Custom TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				480512CA2A18A89700279F57 /* Models */,
+				480512C92A18A88800279F57 /* Views */,
 				4805129F2A18A84F00279F57 /* Curved_Custom_TabBarApp.swift */,
 				480512A12A18A84F00279F57 /* ContentView.swift */,
 				480512A32A18A85000279F57 /* Assets.xcassets */,
@@ -125,6 +135,24 @@
 				480512BC2A18A85000279F57 /* Curved_Custom_TabBarUITestsLaunchTests.swift */,
 			);
 			path = "Curved Custom TabBarUITests";
+			sourceTree = "<group>";
+		};
+		480512C92A18A88800279F57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				480512CD2A18AA2F00279F57 /* Home.swift */,
+				480512CF2A18DA3200279F57 /* TabShape.swift */,
+				480512D12A18DD3300279F57 /* TabPosition.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		480512CA2A18A89700279F57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				480512CB2A18A8D900279F57 /* Tab.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				480512CC2A18A8D900279F57 /* Tab.swift in Sources */,
 				480512A22A18A84F00279F57 /* ContentView.swift in Sources */,
+				480512D22A18DD3300279F57 /* TabPosition.swift in Sources */,
+				480512CE2A18AA2F00279F57 /* Home.swift in Sources */,
 				480512A02A18A84F00279F57 /* Curved_Custom_TabBarApp.swift in Sources */,
+				480512D02A18DA3200279F57 /* TabShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
